@@ -56,6 +56,7 @@
     <Compile Include="Entity\Category.cs" />
     <Compile Include="Entity\Product.cs" />
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model\Admin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

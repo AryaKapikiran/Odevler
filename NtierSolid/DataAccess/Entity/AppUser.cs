@@ -16,8 +16,6 @@ namespace DataAccess.Entity
 
         public string Password { get; set; }
 
-        List<Product> Products { get; set; }
-
-        List<Category> Categories { get; set; }
+   
     }
 }
