@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Entity
 {
-    public class Category
+    public class Category:BaseEntity
     {
         public int Id { get; set; }
 
         public string CategoryName { get; set; }
 
-        List<Product> Products { get; set; }
+       public List<Product> Products { get; set; }
     }
 }

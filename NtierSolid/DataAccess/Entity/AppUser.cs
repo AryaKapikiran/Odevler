@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Entity
 {
-    public  class AppUser
+    public  class AppUser :BaseEntity
     {
         public int Id { get; set; }
 
