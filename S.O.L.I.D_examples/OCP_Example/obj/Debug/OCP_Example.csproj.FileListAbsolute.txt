@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\OCP_Example\bin\Debug\OCP_Example.exe.config
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\OCP_Example\bin\Debug\OCP_Example.exe
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\OCP_Example\bin\Debug\OCP_Example.pdb
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\OCP_Example\obj\Debug\OCP_Example.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\OCP_Example\obj\Debug\OCP_Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\OCP_Example\obj\Debug\OCP_Example.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\OCP_Example\obj\Debug\OCP_Example.exe
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\OCP_Example\obj\Debug\OCP_Example.pdb

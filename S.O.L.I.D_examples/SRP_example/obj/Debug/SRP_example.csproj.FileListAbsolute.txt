@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\SRP_example\bin\Debug\SRP_example.exe.config
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\SRP_example\bin\Debug\SRP_example.exe
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\SRP_example\bin\Debug\SRP_example.pdb
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\SRP_example\obj\Debug\SRP_example.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\SRP_example\obj\Debug\SRP_example.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\SRP_example\obj\Debug\SRP_example.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\SRP_example\obj\Debug\SRP_example.exe
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\SRP_example\obj\Debug\SRP_example.pdb
