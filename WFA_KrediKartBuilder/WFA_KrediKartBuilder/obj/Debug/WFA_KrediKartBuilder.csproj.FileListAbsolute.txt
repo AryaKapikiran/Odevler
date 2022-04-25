@@ -1,0 +1,10 @@
+C:\Users\FatihGunalp\Desktop\Yzl3156Github\DesignPatterns\25.04\WFA_KrediKartBuilder\WFA_KrediKartBuilder\bin\Debug\WFA_KrediKartBuilder.exe.config
+C:\Users\FatihGunalp\Desktop\Yzl3156Github\DesignPatterns\25.04\WFA_KrediKartBuilder\WFA_KrediKartBuilder\bin\Debug\WFA_KrediKartBuilder.exe
+C:\Users\FatihGunalp\Desktop\Yzl3156Github\DesignPatterns\25.04\WFA_KrediKartBuilder\WFA_KrediKartBuilder\bin\Debug\WFA_KrediKartBuilder.pdb
+C:\Users\FatihGunalp\Desktop\Yzl3156Github\DesignPatterns\25.04\WFA_KrediKartBuilder\WFA_KrediKartBuilder\obj\Debug\WFA_KrediKartBuilder.csproj.AssemblyReference.cache
+C:\Users\FatihGunalp\Desktop\Yzl3156Github\DesignPatterns\25.04\WFA_KrediKartBuilder\WFA_KrediKartBuilder\obj\Debug\WFA_KrediKartBuilder.Form1.resources
+C:\Users\FatihGunalp\Desktop\Yzl3156Github\DesignPatterns\25.04\WFA_KrediKartBuilder\WFA_KrediKartBuilder\obj\Debug\WFA_KrediKartBuilder.Properties.Resources.resources
+C:\Users\FatihGunalp\Desktop\Yzl3156Github\DesignPatterns\25.04\WFA_KrediKartBuilder\WFA_KrediKartBuilder\obj\Debug\WFA_KrediKartBuilder.csproj.GenerateResource.cache
+C:\Users\FatihGunalp\Desktop\Yzl3156Github\DesignPatterns\25.04\WFA_KrediKartBuilder\WFA_KrediKartBuilder\obj\Debug\WFA_KrediKartBuilder.csproj.CoreCompileInputs.cache
+C:\Users\FatihGunalp\Desktop\Yzl3156Github\DesignPatterns\25.04\WFA_KrediKartBuilder\WFA_KrediKartBuilder\obj\Debug\WFA_KrediKartBuilder.exe
+C:\Users\FatihGunalp\Desktop\Yzl3156Github\DesignPatterns\25.04\WFA_KrediKartBuilder\WFA_KrediKartBuilder\obj\Debug\WFA_KrediKartBuilder.pdb
