@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\DesignPatterns\CA_ArabaBuilder\CA_ArabaBuilder\bin\Debug\CA_ArabaBuilder.exe.config
+C:\Users\User\Desktop\DesignPatterns\CA_ArabaBuilder\CA_ArabaBuilder\bin\Debug\CA_ArabaBuilder.exe
+C:\Users\User\Desktop\DesignPatterns\CA_ArabaBuilder\CA_ArabaBuilder\bin\Debug\CA_ArabaBuilder.pdb
+C:\Users\User\Desktop\DesignPatterns\CA_ArabaBuilder\CA_ArabaBuilder\obj\Debug\CA_ArabaBuilder.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\DesignPatterns\CA_ArabaBuilder\CA_ArabaBuilder\obj\Debug\CA_ArabaBuilder.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\DesignPatterns\CA_ArabaBuilder\CA_ArabaBuilder\obj\Debug\CA_ArabaBuilder.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\DesignPatterns\CA_ArabaBuilder\CA_ArabaBuilder\obj\Debug\CA_ArabaBuilder.exe
+C:\Users\User\Desktop\DesignPatterns\CA_ArabaBuilder\CA_ArabaBuilder\obj\Debug\CA_ArabaBuilder.pdb

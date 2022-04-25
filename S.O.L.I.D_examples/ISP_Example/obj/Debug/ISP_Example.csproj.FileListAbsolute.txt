@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\ISP_Example\bin\Debug\ISP_Example.exe.config
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\ISP_Example\bin\Debug\ISP_Example.exe
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\ISP_Example\bin\Debug\ISP_Example.pdb
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\ISP_Example\obj\Debug\ISP_Example.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\ISP_Example\obj\Debug\ISP_Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\ISP_Example\obj\Debug\ISP_Example.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\ISP_Example\obj\Debug\ISP_Example.exe
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\ISP_Example\obj\Debug\ISP_Example.pdb

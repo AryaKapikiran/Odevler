@@ -29,9 +29,6 @@ namespace LSP_Example
             şövalye.AssignProtectedHero(soylu);
 
 
-           
-
-           
             Serf serf = new Serf();
             serf.Name = "Gary";
             serf.PuanHesapla(3);

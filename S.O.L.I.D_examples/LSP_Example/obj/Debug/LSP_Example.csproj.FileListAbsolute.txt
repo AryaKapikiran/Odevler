@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\LSP_Example\bin\Debug\LSP_Example.exe.config
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\LSP_Example\bin\Debug\LSP_Example.exe
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\LSP_Example\bin\Debug\LSP_Example.pdb
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\LSP_Example\obj\Debug\LSP_Example.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\LSP_Example\obj\Debug\LSP_Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\LSP_Example\obj\Debug\LSP_Example.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\LSP_Example\obj\Debug\LSP_Example.exe
+C:\Users\User\Desktop\Odevler\S.O.L.I.D_examples\LSP_Example\obj\Debug\LSP_Example.pdb
