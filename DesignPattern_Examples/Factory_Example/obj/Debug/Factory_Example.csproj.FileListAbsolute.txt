@@ -1,0 +1,8 @@
+C:\Users\User\Desktop\Odevler\DesignPattern_Examples\Factory_Example\bin\Debug\Factory_Example.exe.config
+C:\Users\User\Desktop\Odevler\DesignPattern_Examples\Factory_Example\bin\Debug\Factory_Example.exe
+C:\Users\User\Desktop\Odevler\DesignPattern_Examples\Factory_Example\bin\Debug\Factory_Example.pdb
+C:\Users\User\Desktop\Odevler\DesignPattern_Examples\Factory_Example\obj\Debug\Factory_Example.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Odevler\DesignPattern_Examples\Factory_Example\obj\Debug\Factory_Example.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\Odevler\DesignPattern_Examples\Factory_Example\obj\Debug\Factory_Example.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Odevler\DesignPattern_Examples\Factory_Example\obj\Debug\Factory_Example.exe
+C:\Users\User\Desktop\Odevler\DesignPattern_Examples\Factory_Example\obj\Debug\Factory_Example.pdb
