@@ -4,7 +4,41 @@
     <meta charset="utf-8" />
     <title>Northwind E-Commerce</title>
     <link href="css/bootstrap.css" rel="stylesheet" />
-   
+    <style>
+        .categoryarea {
+            width: 200px;
+            height: 1000px;
+            background-color:#808080;
+            border-radius: 0 0 10px 10px;
+
+           
+           
+
+        }
+        .categorybox {
+            text-align: center;
+            font-size: 35px;
+            font-family:'Times New Roman', Times, serif;
+            color:white;
+            
+        }
+        .c1 {
+            text-align: center;
+            font-size: 25px;
+            font-family: 'Times New Roman', Times, serif;
+            color:darkgrey;
+        }
+
+    </style>
+    <style>
+
+        .table {
+            width:1000px;
+            height:300px;
+           
+
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -41,8 +75,49 @@
             </div>
         </div>
     </nav>
+    <center>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+            </tbody>
+        </table>
 
+    </center>
     
+    <div class="categoryarea">
+        <p class="categorybox">Category</p>
+        <p class="c1">Beverages</p>
+        <p class="c1">Condiments</p>
+        <p class="c1">Desserts</p>
+    </div>
+
+
+
+
 
 </body>
 </html>
