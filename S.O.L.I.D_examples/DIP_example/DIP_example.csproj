@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B547E080-6135-4A80-AC42-365B6D592E26}</ProjectGuid>
+    <ProjectGuid>{71F37707-C803-42D9-BCFA-A29CE8801B79}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ISP_Example</RootNamespace>
-    <AssemblyName>ISP_Example</AssemblyName>
+    <RootNamespace>DIP_example</RootNamespace>
+    <AssemblyName>DIP_example</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,18 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entity\BaseHero.cs" />
-    <Compile Include="Entity\Buyucu.cs" />
-    <Compile Include="Entity\Savasci.cs" />
-    <Compile Include="Interface\IAtesEtme.cs" />
-    <Compile Include="Interface\IHeal.cs" />
-    <Compile Include="Interface\IMagic.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

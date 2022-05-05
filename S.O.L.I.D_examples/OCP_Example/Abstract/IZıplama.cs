@@ -8,7 +8,7 @@ namespace OCP_Example.Abstract
 {
     public interface IZıplama
     {
-        //Sadece bazı kahramanlar yuzebilir
+        //Sadece bazı kahramanlar zıplayabilir
 
         string Zıplıyor();
     }
