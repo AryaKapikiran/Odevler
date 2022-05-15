@@ -146,7 +146,7 @@
                     <div class="card mb-4">
                         <div class="card-header">
                             <i class="fas fa-table me-1"></i>
-                            Müşteriler
+                            Müşteriler <a href="addcustomer/" class="btn btn-warning" style="float:right">Müşteri Ekle</a>
                         </div>
                         <div class="card-body">
                             <table id="datatablesSimple">
@@ -154,7 +154,6 @@
                                     <tr>
                                         <th>Customer Id</th>
                                         <th>Company Name</th>
-                                        
                                         <th>Contact Title</th>
                                         
 
@@ -166,6 +165,7 @@
                                     {
                                         <tr>
                                             <td>@customer.CustomerID</td>
+                                            
                                             <td>@customer.CompanyName</td>
                                             
                                             <td>@customer.ContactTitle</td>

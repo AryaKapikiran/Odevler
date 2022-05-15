@@ -19,14 +19,15 @@ namespace MVC_Northwind.Controllers
 
         public ActionResult Index()
         {
-            customers = db.Customers.OrderBy(x=>x.CustomerID).ToList();
-            orders =db.Orders.OrderBy(x=>x.OrderID).ToList();
+           customers = db.Customers.OrderBy(x=>x.CustomerID).ToList();
+           orders =db.Orders.OrderBy(x=>x.OrderID).ToList();
+           
             List<Employee> employees = db.Employees.OrderBy(x=>x.EmployeeID).ToList();
             List<Product> products = db.Products.OrderBy(x=>x.ProductID).ToList();
             TempData["Customers"]= customers.ToList();
             TempData["Orders"]= orders.ToList();
-            TempData["Employees"] = employees.ToList();
-            TempData["Products"] = products.ToList();
+            //TempData["Employees"] = employees.ToList();
+            //TempData["Products"] = products.ToList();
             TempData["ProductNumber"] = products.Count().ToString();
             TempData["EmployeeNumber"] = employees.Count().ToString();
             TempData["CustomersNumber"] = customers.Count().ToString();
@@ -50,6 +51,20 @@ namespace MVC_Northwind.Controllers
             var orderdetay = orders.Find(x => x.OrderID == id);
 
             return View(orderdetay);
+        }
+
+        //Müşteri Ekleme
+        public ActionResult AddCustomer()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult AddCustomer(Customer customer)
+        {
+            customers.Add(customer);
+            
+            return RedirectToAction("Index");
         }
     }
 }

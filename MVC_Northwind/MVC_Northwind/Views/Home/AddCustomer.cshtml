@@ -1,0 +1,35 @@
+﻿@model MVC_Northwind.Models.Customer
+@{
+    ViewBag.Title = "AddCustomer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>AddCustomer</h2>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddUser</title>
+</head>
+<body>
+    <div>
+        <form method="post">
+            <div>
+                <label>Customer ID </label>
+                <input type="text" name="CustomerID" />
+            </div>
+            <div>
+                <label>CompanyName </label>
+                <input type="text" name="CompanyName" />
+            </div>
+            <div>
+                <label>ContactTitle </label>
+                <input type="text" name="ContactTitle" />
+            </div>
+            <button type="submit">Add Customer</button>
+        </form>
+    </div>
+</body>
+</html>
