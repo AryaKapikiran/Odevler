@@ -14,41 +14,45 @@ namespace MVC_Northwind.Controllers
 
         // GET: Home
 
-        public static List<Customer> customers = new List<Customer>();
-        public static List<Order> orders = new List<Order>();
+        
 
         public ActionResult Index()
         {
-           customers = db.Customers.OrderBy(x=>x.CustomerID).ToList();
-           orders =db.Orders.OrderBy(x=>x.OrderID).ToList();
+          //Listeleme
+           List<Customer> customers = db.Customers.OrderBy(x=>x.CustomerID).ToList();
+           List<Order> orders =db.Orders.OrderBy(x=>x.OrderID).ToList();
            
             List<Employee> employees = db.Employees.OrderBy(x=>x.EmployeeID).ToList();
             List<Product> products = db.Products.OrderBy(x=>x.ProductID).ToList();
+
+            //TempData içine atma
             TempData["Customers"]= customers.ToList();
             TempData["Orders"]= orders.ToList();
-            //TempData["Employees"] = employees.ToList();
-            //TempData["Products"] = products.ToList();
+           
+            //Kaç adet olduklarını yazdırma
             TempData["ProductNumber"] = products.Count().ToString();
             TempData["EmployeeNumber"] = employees.Count().ToString();
             TempData["CustomersNumber"] = customers.Count().ToString();
             TempData["OrdersNumber"]= orders.Count().ToString();
+
+            //Son 30 siparisi listeleme
             TempData["SonSiparişler"] = orders.OrderByDescending(x=>x.OrderDate).Take(30).ToList();
             
             TempData.Keep();
             return View();
         }
 
-        
+        //Detayları görüntüleme
         public ActionResult CustomerDetaylari(string id)
         {
-            var customerdetay = customers.Find(x => x.CustomerID == id);
+            var customerdetay = db.Customers.ToList().Find(x => x.CustomerID == id);
             
             return View(customerdetay);
         }
 
         public ActionResult OrderDetaylari(int id)
         {
-            var orderdetay = orders.Find(x => x.OrderID == id);
+            var orderdetay = db.Orders.ToList().Find(x => x.OrderID == id);
 
             return View(orderdetay);
         }
@@ -62,7 +66,9 @@ namespace MVC_Northwind.Controllers
         [HttpPost]
         public ActionResult AddCustomer(Customer customer)
         {
-            customers.Add(customer);
+            db.Customers.Add(customer);
+            
+            db.SaveChanges();
             
             return RedirectToAction("Index");
         }
