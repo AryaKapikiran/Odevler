@@ -1,4 +1,5 @@
-﻿using MVC_Northwind.Models;
+﻿using MVC_Northwind.Filter;
+using MVC_Northwind.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,7 @@ namespace MVC_Northwind.Controllers
 
         // GET: Home
 
-        
+        [AuthFilter]
 
         public ActionResult Index()
         {
@@ -43,6 +44,8 @@ namespace MVC_Northwind.Controllers
         }
 
         //Detayları görüntüleme
+
+        [AuthFilter]
         public ActionResult CustomerDetaylari(string id)
         {
             var customerdetay = db.Customers.ToList().Find(x => x.CustomerID == id);
@@ -50,6 +53,7 @@ namespace MVC_Northwind.Controllers
             return View(customerdetay);
         }
 
+        [AuthFilter]
         public ActionResult OrderDetaylari(int id)
         {
             var orderdetay = db.Orders.ToList().Find(x => x.OrderID == id);
@@ -58,6 +62,7 @@ namespace MVC_Northwind.Controllers
         }
 
         //Müşteri Ekleme
+        [AuthFilter]
         public ActionResult AddCustomer()
         {
             return View();

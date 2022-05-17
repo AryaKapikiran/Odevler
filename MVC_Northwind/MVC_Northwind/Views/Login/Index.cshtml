@@ -1,0 +1,43 @@
+﻿@model MVC_Northwind.Models.AppUser
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<div class="row" style="margin-top:30px;">
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-header">
+                <h2>
+                    Lütfen Giriş Yapınız
+                </h2>
+                <div class="card-body">
+
+                    @if(TempData["error"] != null)
+            {
+                    <h2 style="color:red;">@TempData["error"]</h2>
+            }
+
+                    <form method="post">
+                        <div>
+                            <label>UserName:</label>
+                            @Html.ValidationMessageFor(x=>x.UserName)
+                            @Html.TextBoxFor(x=>x.UserName, new {@class="form-control" })
+                        </div>
+                        <div>
+                            <label>Password:</label>
+                            @Html.ValidationMessageFor(x=>x.Password)
+                            @Html.TextBoxFor(x=>x.Password, new {@class="form-control" })
+                            
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="margin-top:50px; float:right;">Login</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

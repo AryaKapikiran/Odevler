@@ -11,11 +11,15 @@ namespace MVC_Northwind.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class User
     {
         public int userId { get; set; }
+        
+        [Required(ErrorMessage = "Kullan?c? ad? bos gecilemez")]
         public string UserName { get; set; }
+        [Required(ErrorMessage = "?ifre bo? gecilemez")]
         public string Password { get; set; }
     }
 }
