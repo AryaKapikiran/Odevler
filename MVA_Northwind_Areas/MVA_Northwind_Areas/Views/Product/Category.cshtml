@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "Category";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+<div class="container col-md-6">
+
+    <table class="table table-dark table-striped">
+        <thead>
+            <tr>
+                <th scope="col">CategoryId</th>
+                <th scope="col">CategoryName</th>
+                <th scope="col">Description</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var category in TempData["Categories"] as List<MVA_Northwind_Areas.Models.Category>)
+            {
+                <tr>
+                    <td>@category.CategoryID</td>
+                    <td>@category.CategoryName</td>
+                    <td>@category.Description</td>
+                    
+                </tr>
+            }
+
+        </tbody>
+    </table>
+
+</div>
+
+<div class="container col-md-6">
+    <table class="table table-dark table-striped ">
+        <thead>
+            <tr>
+                <th scope="col">ProductId</th>
+                <th scope="col">ProductName</th>
+                <th scope="col">CategoryId</th>
+                <th scope="col">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in TempData["Products"] as List<MVA_Northwind_Areas.Models.Product>)
+            {
+                <tr>
+                    <td>@product.ProductID</td>
+                    <td>@product.ProductName</td>
+                    <td>@product.CategoryID</td>
+                    <td>@product.UnitPrice</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>

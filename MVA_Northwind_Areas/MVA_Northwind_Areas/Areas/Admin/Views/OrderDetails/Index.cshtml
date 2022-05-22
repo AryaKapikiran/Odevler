@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<html>
+<head>
+    <style>
+        body {
+            background: linear-gradient(#1A1A40 15%, #000000 80%, #808080 5%)
+        }
+    </style>
+</head>
+<body>
+    <div class="row" style="margin-top:20px;">
+
+
+        <div class="col-xl-3 col-md-2">
+            <div class="card bg-dark text-white mb-4">
+                <div class="card-body">Mevcut Tedarikçi Sayısı</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <p>@TempData["SupplierSayısı"]</p>
+                    <p>@Html.ActionLink("Suppliers","Index","Supplier")</p>
+                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-2">
+            <div class="card bg-dark text-white mb-4">
+                <div class="card-body">Mevcut Sipariş Sayısı</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <p>@TempData["OrderSayısı"]</p>
+                    <p>@Html.ActionLink("OrderDetails", "Index", "OrderDetails")</p>
+                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-2">
+            <div class="card bg-dark text-white mb-4">
+                <div class="card-body">Mevcut Çalışan Sayısı</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <p>@TempData["EmployeeSayısı"]</p>
+                    <p>@Html.ActionLink("Employees", "Index", "Employee")</p>
+                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <div class=" col-md-6">
+            <table class="table table-dark table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">OrderId</th>
+                        <th scope="col">ProductId</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">UnitPrice</th>
+                        <th scope="col">Discount</th>
+
+
+                    </tr>
+                </thead>
+                @foreach (var order_detail in TempData["OrderDetails"] as List<MVA_Northwind_Areas.Models.Order_Detail>)
+                {
+                    <tbody>
+                        <tr>
+
+                            <td>@order_detail.OrderID</td>
+                            <td>@order_detail.ProductID</td>
+                            <td>@order_detail.Quantity</td>
+                            <td>@order_detail.UnitPrice</td>
+                            <td>@order_detail.Discount</td>
+
+                        </tr>
+
+                    </tbody>
+                }
+            </table>
+        </div>
+
+
+
+
+    </div>
+</body>
+</html>

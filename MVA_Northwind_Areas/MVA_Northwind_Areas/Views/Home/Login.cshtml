@@ -1,0 +1,45 @@
+﻿@model MVA_Northwind_Areas.Models.AppUser
+@{
+    ViewBag.Title = "Login";
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background: linear-gradient(#1A1A40 15%, #000000 80%, #808080 5%)
+        }
+    </style>
+</head>
+<body>
+    <div class="row" style="margin-top:20px;">
+        <div class="card card text-bg-dark mb-3">
+            <div class="card-body ">
+                @if (TempData["error"] != null)
+                {
+                    <h2 style="color:red;">@TempData["error"]</h2>
+                }
+                <form method="post">
+                    <div class="mb-3">
+                        <label>UserName:</label>
+                        @Html.ValidationMessageFor(x => x.UserName)
+                        @Html.TextBoxFor(x => x.UserName, new { @class = "form-control" })
+
+                    </div>
+                    <div class="mb-3 ">
+                        <label>Password:</label>
+                        @Html.ValidationMessageFor(x => x.Password)
+                        @Html.TextBoxFor(x => x.Password, new { @class = "form-control" })
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

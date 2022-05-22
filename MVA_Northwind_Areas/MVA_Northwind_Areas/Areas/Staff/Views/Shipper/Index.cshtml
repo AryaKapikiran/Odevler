@@ -1,0 +1,85 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<html>
+<head>
+    <style>
+        body {
+            background: linear-gradient(#1A1A40 15%, #000000 80%, #808080 5%)
+        }
+    </style>
+</head>
+<body>
+    <div class="row" style="margin-top:20px;">
+
+
+        <div class="col-xl-3 col-md-2">
+            <div class="card bg-dark text-white mb-4">
+                <div class="card-body">Mevcut Müşteri Sayısı</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <p>@TempData["CustomerSayısı"]</p>
+                    <p>@Html.ActionLink("Customers", "Index", "Customer")</p>
+                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-2">
+            <div class="card bg-dark text-white mb-4">
+                <div class="card-body">Mevcut Sipariş Sayısı</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <p>@TempData["OrderSayısı"]</p>
+                    <p>@Html.ActionLink("OrderDetails", "Index", "Order")</p>
+                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-md-2">
+            <div class="card bg-dark text-white mb-4">
+                <div class="card-body">Mevcut Shipper Sayısı</div>
+                <div class="card-footer d-flex align-items-center justify-content-between">
+                    <p>@TempData["ShipperSayısı"]</p>
+                    <p>@Html.ActionLink("Shippers", "Index", "Shipper")</p>
+                    <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <div class=" col-md-6">
+            <table class="table table-dark table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">ShipperId</th>
+                        <th scope="col">CompanyName</th>  
+                        <th scope="col">Phone</th>
+
+                    </tr>
+                </thead>
+                @foreach (var shipper in TempData["Shippers"] as List<MVA_Northwind_Areas.Models.Shipper>)
+                {
+                    <tbody>
+                        <tr>
+
+                            <td>@shipper.ShipperID</td>
+                            <td>@shipper.CompanyName</td>
+                            <td>@shipper.Phone</td>
+                           
+                            
+                        </tr>
+
+                    </tbody>
+                }
+            </table>
+        </div>
+
+
+
+
+    </div>
+</body>
+</html>
+
