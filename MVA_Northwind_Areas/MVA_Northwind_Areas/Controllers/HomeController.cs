@@ -35,14 +35,14 @@ namespace MVA_Northwind_Areas.Controllers
                     if (appUser.UserName == "admin")
                     {
                         Session["login"] = user;
-                        return RedirectToAction("Index", "Employee");
+                        return RedirectToAction("Index", "Employee", new { area="Admin"});
                         
                     }
 
                     else if (appUser.UserName =="staff")
                     {
                         Session["login"] = user;
-                        return RedirectToAction("Index", "Customer");
+                        return RedirectToAction("Index", "Customer", new {area="Staff"});
                     }
 
                     else if(appUser.UserName =="ziyaretçi")

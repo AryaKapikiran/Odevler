@@ -17,7 +17,7 @@ namespace MVA_Northwind_Areas.Areas.Admin.Controllers
             TempData["EmployeeSayısı"] = db.Employees.Count();
             TempData["OrderSayısı"] = db.Orders.Count();
             TempData["SupplierSayısı"] = db.Suppliers.Count();
-            TempData["Suppliers"] = db.Suppliers;
+            TempData["Suppliers"] = db.Suppliers.ToList();
             
             return View();
         }
